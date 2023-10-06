@@ -9,8 +9,7 @@ preload_models()
 
 # generate audio from text
 text_prompt = """
-     Hello, my name is Chinmay and i go to RMIT. And, uh — and I like pizza. [laughs] 
-     But I also have other interests such as playing tic tac toe.
+     My name is Adriana. I'm going to Tasmania next week.
 """
 audio_array = generate_audio(text_prompt)
 
